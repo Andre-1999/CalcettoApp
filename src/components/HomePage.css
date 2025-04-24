@@ -1,0 +1,33 @@
+.match-row {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+  }
+  
+  .match-row:last-child {
+    border-bottom: none;
+  }
+  
+  .match-date {
+    font-weight: bold;
+  }
+  
+  .team {
+    font-size: 0.9rem;
+  }
+  
+  .match-mvp {
+    font-style: italic;
+  }
+  
+  .matches-list {
+    margin-bottom: 1.5rem;
+  }
+  
+  .home-container {
+    padding: 1rem;
+  }
+  
