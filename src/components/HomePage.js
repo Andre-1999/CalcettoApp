@@ -1,7 +1,7 @@
 // src/components/HomePage.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './HomePage.css';
+import './Homepage.css';
 import matchHistory from '../data/MatchHistory';
 
 
@@ -67,5 +67,8 @@ function HomePage() {
     </div>
   );
 }
+
+
+
 
 export default HomePage;
